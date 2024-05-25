@@ -1,0 +1,4 @@
+# Prueba tecnica
+
+La siguiente prueba tecnica esta dividad en carpetas segun el numero de la pregunta, para el punto #1 se emplea una tecnologia basada en el framework nest.js y usando el gestor de paquetes pnpm, para poder inicar el sistema se utiliza los siguientes comandos: `pnpm install` con el cual instalamos todas las dependencias del proyecto, seguido se efectuara `pnpm run start:dev` el cual levantara el servicio, una vez el servicio a sido ejecutado en la ruta raiz del api, se desplegara un swagger parapode probar.
+EN el punto 3 se genera una funcion en javascript para poder dar solucion al este y se generan pruebas con jest para poder corroborar el funcionamiento de la misma, para probar solo se requiere usar `pnpm install` primero para instalar las dependencias y seguido `npm run test` para ejecutar las pruebas
